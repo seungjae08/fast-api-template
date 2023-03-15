@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fast-api-template"
+version = "0.1.0"
+description = ""
+authors = ["seungjaehan <seungjae08@gmail.com>"]
+readme = "README.md"
+packages = [{include = "app"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
