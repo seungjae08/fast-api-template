@@ -1,3 +1,5 @@
-export POETRY_VIRTUALENVS_PATH=$(pwd)
+PROJECT_DIR=$(pwd)
+
+rm -rf $PROJECT_DIR/.env
 
 poetry install
