@@ -10,6 +10,7 @@ packages = [{include = "app"}]
 python = "^3.11"
 pytest = "^7.2.2"
 fastapi = "^0.94.1"
+uvicorn = "^0.21.1"
 
 
 [build-system]
